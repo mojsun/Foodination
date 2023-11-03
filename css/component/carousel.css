@@ -1,0 +1,15 @@
+.pizza-image,
+.steak-image,
+.salad-image {
+  max-width: 341.33px;
+  max-height: auto;
+  object-fit: contain; /* Maintain aspect ratio and fit within container */
+}
+
+.image-container,
+.steak-image,
+.salad-image {
+  width: 341.33px;
+  height: 341.33px;
+  overflow: hidden;
+}

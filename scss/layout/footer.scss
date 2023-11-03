@@ -1,0 +1,28 @@
+//* section header*//
+.header-title:hover {
+  transform: scale(2);
+  margin: 3%;
+  text-shadow: 1px 1px 8px rgba($dark, 0.5);
+}
+//* section search*//
+//* section main*//
+
+/*****************************************************/
+//it's not responsive yet
+
+/* Small devices (landscape phones) */
+@media (max-width: 576px) {
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 576px) and (max-width: 992px) {
+  //   .footer-social {
+  //     transform: scale(0.75);
+  //   }
+  //   .footer-social i {
+  //     margin: 5px;
+  //   }
+}
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+}

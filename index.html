@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="img/gallery-image-4.jpg" />
+    <title>Foodienation</title>
+  </head>
+
+  <body>
+    
+
+      <header >
+        <nav
+          class="navbar navbar-expand-lg  navbar-dark bg-info"
+        >
+          <div class="container">
+            <a href="index.html" class="navbar-brand">
+              <video
+                src="img/animation/animation_site-icon.mp4"
+                alt="video for logo"
+                width="100"
+               
+               style="mix-blend-mode:color-burn; transform: scaleX(1.5); background: transparent;height: 8vh;"
+                autoplay muted loop
+              >
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link fw-semibold text-primary">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#products" class="nav-link fw-semibold text-primary">Products</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a href="locations.html" class="nav-link fw-semibold text-primary">Locations</a>
+                </li> -->
+                <li class="nav-item">
+                  <a
+                    href="contact.html"
+                    class="nav-link btn btn-outline-light fw-semibold px-4 mx-4 text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="bg-video d-flex align-items-center">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video/video (2160p).mp4" />
+            your browser is not supported!
+          </video>
+          <div class="bg-video-text">
+            <h1 class="display-1 fw-bold text-primary shadowed-text " data-text="Welcome To Foodie Nation" id="typing-text"></h1>
+          </div>
+        </div>
+        
+      </header>
+
+      <main>
+
+        <section class="Icon m-6  p-5 rounded-5" id="stats">
+          <div class="d-flex justify-content-between">
+            <div class="text-center">
+              <h2 class="Icon-title mb-4 fw-bold">Happy client</h2>
+              <video
+                class="Icon-animation w-50 rounded-circle"
+                autoplay
+                muted
+                loop
+              >
+                <source src="img/animation/animation_happy-client.mp4" />
+              </video>
+              <h2 class="Icon_Numbers mt-4 text-info" data-target="328"></h2>
+            </div>
+            <div class="text-center">
+              <h2 class="Icon-title mb-4">Order Per Week</h2>
+              <video
+                class="Icon-animation w-50 rounded-circle"
+                autoplay
+                muted
+                loop
+              >
+                <source src="img/animation/animation_lkzrr6b5.mp4" />
+              </video>
+              <h2 class="Icon_Numbers mt-4 text-info" data-target="672"></h2>
+            </div>
+            <div class="text-center">
+              <h2 class="Icon-title mb-4">Number Of Reviews</h2>
+              <video
+                class="Icon-animation w-50 rounded-circle"
+                autoplay
+                muted
+                loop
+              >
+                <source src="img/animation/animation_good-review.mp4" />
+              </video>
+              <h2 class="Icon_Numbers mt-4 text-info" data-target="451"></h2>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <h1 class="mb-3 text-primary">
+                  3 Reasons Why You'll Love Foodnations
+                </h1>
+                <p class="mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                  soluta mollitia perspiciatis accusantium eaque consequuntur,
+                </p>
+                <ul class="list-group">
+                  <li class="mb-3">
+                    <i class="fas fa-square"></i>
+                    <strong>Save time & money</strong> We save you serious time
+                    and money compared to grocery stores and restaurants. Do you
+                    know what's better? You can also forget
+                  </li>
+                  <li class="mb-3">
+                    <i class="fas fa-square"></i>
+                    <strong>Less food waste = greener footprint</strong> We save
+                    you serious time and money compared to grocery stores and
+                    restaurants. Do you know what's better? You can also forget
+                  </li>
+                  <li class="">
+                    <i class="fas fa-square"></i>
+                    <strong
+                      >Get fresh ingredients & lead a healthier
+                      lifestyle</strong
+                    >
+                    We save you serious time and money compared to grocery
+                    stores and restaurants. Do you know what's better? You can
+                    also forget
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 mb-3">
+                <form class="mb-3">
+                  <div class="mb-3">
+                    <label for="name" class="form-label"></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label"></label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <button class="btn text-primary fw-bolder mt-4">
+                    <h4><a  class="btn-underline" href="#">Make Your Order</a></h4>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="Cards mb-7" id="products">
+          <div class="container">
+            <div class="row justify-content-center g-6 mt-2">
+              <h1 class="Card-Header text-center display-2 fw-bold"> MOST  POPULAR  FOODS</h1>
+                  <div class="col-md-3 me-2">
+                <div class="cardd">
+                  <div class="cardd__side cardd__side--front">
+                    <img
+                      src="./img/pizza.jpg"
+                      alt="pizza dish"
+                      class="cardd-img-top"
+                    />
+                    <div class="card-body m-3">
+                      <h2 class="card-title  fw-bolder">Pizza</h2>
+                      <p class="card-text lead mt-4">
+                        Pizza, a delightful indulgence with surprising merits. Abundant flavors satisfy the palate. Shared joy promotes togetherness. A treat that nourishes the soul. Embrace the pleasure, celebrate the moments
+                      </p>
+                    </div>
+                  </div>
+                  <div class="cardd__side cardd__side--back ">
+                  <div class="cardd__cta">
+                    <div class="cardd__price-box">
+                        <p class="cardd__price-only">Only</p>
+                        <p class="cardd__price-value">$64</p>
+                    </div>
+                    <a data-bs-toggle="modal"
+                    data-bs-target="#modal1" class="btn btn-primary">Order now!</a>
+                </div>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="col-md-3 me-2">
+                <div class="cardd">
+                  <div class="cardd__side cardd__side--front">
+                    <img
+                      src="./img/steak/fares-rammah-20LEsMkwcD4-unsplash.jpg"
+                      alt="egg dish"
+                      class="cardd-img-top"
+                    />
+                    <div class="card-body m-3">
+                      <h2 class="card-title  fw-bolder">Steak</h2>
+                      <p class="card-text lead mt-4">
+                        Steak, a flavorful indulgence with hidden virtues. Rich in iron, it fortifies vitality. Protein-packed, it supports muscle strength. Nutrient-dense, it aids in tissue repair. Savor the goodness, relish in well-being 
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="cardd__side cardd__side--back "
+                  >
+                  <div class="cardd__cta">
+                    <div class="cardd__price-box">
+                        <p class="cardd__price-only">Only</p>
+                        <p class="cardd__price-value">$89</p>
+                    </div>
+                    <a  data-bs-toggle="modal"
+                    data-bs-target="#modal2" class="btn btn-primary">Order now!</a>
+                </div></div>
+                </div>
+                  </div>
+                  <div class="col-md-3 me-2">
+                   <div class="cardd">
+                  <div class="cardd__side cardd__side--front">
+                    <img
+                      src="./img/salad.jpg"
+                      alt="salad dish"
+                      class="cardd-img-top"
+                    />
+                    <div class="card-body m-3">
+                      <h2 class="card-title  fw-bolder">Salad</h2>
+                      <p class="card-text lead mt-4">
+                        Salads, a burst of health in every bite. Packed with vitamins, they invigorate. Low calories aid in weight goals. Antioxidants shield wellness. Nutrient-rich, they fuel vitality. A salad a day, a step towards thriving.
+                      </p>
+                    </div>
+                  </div>
+                    <div
+                      class="cardd__side cardd__side--back "
+                    >
+                    <div class="cardd__cta">
+                      <div class="cardd__price-box">
+                          <p class="cardd__price-only">Only</p>
+                          <p class="cardd__price-value">$56</p>
+                      </div>
+                      <a  data-bs-toggle="modal"
+                      data-bs-target="#modal3" class="btn btn-primary">Order now!</a>
+                  </div>
+                </div>
+                  </div>
+                 </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="modal1" class="modal fade my-5">
+          <div class="modal-dialog modal-lg mt-7">
+            <div class="modal-content bg-info p-5">
+            
+            <div class="row ">
+              
+              <div class="col-md-12 ">  
+                <video
+                class="Icon-animation w-100 "
+                autoplay
+                muted
+                loop
+              >
+                <source src="img/pizza/video (2160p) (1).mp4" />
+              </video>
+              </div>
+            </div>
+           <div class="row mt-5">
+            <p class="lead">Pizza, a culinary marvel that offers a host of advantages. With a harmonious blend of flavors, it tantalizes taste buds and brings joy to gatherings. An ideal canvas for nutrient-rich toppings, pizza can incorporate an array of vegetables, proteins, and cheeses, contributing to a well-rounded diet. Its convenience and versatility make it a go-to choice for quick meals or festive occasions. Furthermore, the shared experience of savoring pizza fosters connections and camaraderie. Whether enjoyed as a comforting treat or a creative masterpiece, pizza brings people together while providing a satisfying and delicious dining experience
+            </p>
+           </div>
+            <div class="row mt-5">
+              <div class="d-flex justify-content-between ">
+             <div class="col-md-5 m-2">
+              <div id="slider" class="carousel slide" >
+                 <!--indicators-->
+                <div class="carousel-indicators">
+                  <button class="active" data-bs-target="#slider"  data-bs-slide-to="0" ></button>
+                  <button data-bs-target="#slider" data-bs-slide-to="1"  ></button>
+                  <button   data-bs-target="#slider" data-bs-slide-to="2"  ></button>
+                </div>
+                <!--inners-->
+                <div class="carousel-inner rounded-5">
+                  <div class="carousel-item active ">
+                    <div class="image-container">
+                    <img class="pizza-image" src="/img/pizza/foad-roshan-Y6OgisiGBjM-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                  </div>
+                </div>
+                  <div class="carousel-item ">
+                    <div class="image-container">
+                    <img  class="pizza-image" src="/img/pizza/likemeat-CbNAuxSZTFo-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                  </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <div class="image-container">
+                    <img  class="pizza-image pizza-image-3" src="/img/pizza/pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                  </div>
+                </div>
+                </div>
+                <!--buttons-->
+                <button class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#slider">
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-slide="next" data-bs-target="#slider">
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+              </div>
+             </div>
+            
+
+            <div class="col-md-7 m-3 mt-5">
+              <h1 class="mb-3 text-danger fw-bold">
+                3 OTHERS POPULAR PIZZA OPTIONS
+              </h1>
+             
+              <ul class="list-group">
+
+                <h2 class="text-primary ">Pop Pizza</h2>
+                <li class=" list-unstyled mb-3">
+                  <i class="fas fa-square"></i>
+                  <strong>Ingredients</strong> Dough ,Tomato Sauce , Cheese , Toppings: Pepperoni,Sausage,Mushrooms,Onions,Bell peppers,Olives,Ham,Pineapple,Bacon,Spinach,Tomatoespepper,salt
+                </li>
+
+                <h2 class="text-primary ">Vegies Pizza</h2>
+                <li class=" list-unstyled mb-3">
+                  <i class="fas fa-square"></i>
+                  <strong>Ingredients</strong>  Dough ,Tomato Sauce , Cheese , Toppings: Onions,Bell peppers,Olives,Spinach,Tomatoespepper,salt
+                </li>
+
+                <h2 class="text-primary ">Mushroom Pizza</h2>
+                <li class="list-unstyled">
+                  <i class="fas fa-square"></i>
+                  <strong
+                    >Ingredients</strong
+                  >
+                  Dough ,Tomato Sauce , Cheese , Toppings: Pepperoni,Sausage,Mushrooms,Onions,Bell peppers,Olives,Spinach,Tomatoespepper,salt
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+          
+        </section>
+
+        <section id="modal2" class="modal fade my-5">
+          <div class="modal-dialog modal-lg mt-7">
+            <div class="modal-content bg-info p-5">
+            
+            <div class="row ">
+              
+              <div class="col-md-12 ">  
+                <video
+                class="Icon-animation w-100 "
+                autoplay
+                muted
+                loop
+              >
+                <source src="img/steak/video (1080p) (1).mp4" />
+              </video>
+              </div>
+              
+            </div>
+           <div class="row mt-5">
+            <p class="lead">Steak, a culinary masterpiece that offers a multitude of advantages. Bursting with essential nutrients like iron and zinc, it fuels energy and supports immune health. Packed with high-quality protein, steak aids in muscle development and repair. Its rich taste elevates dining experiences, encouraging mindful enjoyment. Additionally, steak's protein content promotes satiety, aiding weight management goals. As a versatile ingredient, it inspires creativity in the kitchen. Embrace the goodness of steak for a well-rounded and flavorful approach to nutrition.
+            </p>
+           </div>
+            <div class="row mt-5">
+              <div class="d-flex justify-content-between ">
+             <div class="col-md-5 m-2">
+              <div id="sliders" class="carousel slide" >
+                <!--indicators-->
+               <div class="carousel-indicators">
+                 <button class="active" data-bs-target="#sliders"  data-bs-slide-to="0" ></button>
+                 <button data-bs-target="#sliders" data-bs-slide-to="1"  ></button>
+                 <button   data-bs-target="#sliders" data-bs-slide-to="2"  ></button>
+               </div>
+               <!--inners-->
+               <div class="carousel-inner rounded-5">
+                 <div class="carousel-item active ">
+                   <div class="image-container">
+                   <img class="steak-image" src="/img/steak/behrouz-sasani-RZoNMrC13KU-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                 </div>
+               </div>
+                 <div class="carousel-item ">
+                   <div class="image-container">
+                   <img  class="steak-image" src="/img/steak/iman-zaker-Et1rVF1YJe8-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                 </div>
+                 </div>
+                 <div class="carousel-item ">
+                   <div class="image-container">
+                   <img  class="steak-image pizza-image-3" src="/img/steak/sunorwind-Z4CvBOpOi6w-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                 </div>
+               </div>
+               </div>
+               <!--buttons-->
+               <button class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#sliders">
+                 <span class="carousel-control-prev-icon"></span>
+                 <span class="visually-hidden">Previous</span>
+               </button>
+
+               <button class="carousel-control-next" type="button" data-bs-slide="next" data-bs-target="#sliders">
+                 <span class="carousel-control-next-icon"></span>
+                 <span class="visually-hidden">Next</span>
+               </button>
+
+             </div>
+             </div>
+            
+
+            <div class="col-md-7 m-3 mt-5">
+              <h1 class="mb-3 text-danger fw-bold">
+                3 OTHERS POPULAR STEAK OPTIONS
+              </h1>
+             
+              <ul class="list-group">
+
+                <h2 class="text-primary ">Raw Steak</h2>
+                <li class=" list-unstyled mb-3">
+                  <i class="fas fa-square"></i>
+                  <strong>Ingredients</strong> Dough ,Tomato Sauce , Cheese , Toppings: Pepperoni,Sausage,Mushrooms,Onions,Bell peppers,Olives,Ham,Pineapple,Bacon,Spinach,Tomatoespepper,salt
+                </li>
+
+                <h2 class="text-primary ">Western Steak</h2>
+                <li class=" list-unstyled mb-3">
+                  <i class="fas fa-square"></i>
+                  <strong>Ingredients</strong>  Dough ,Tomato Sauce , Cheese , Toppings: Onions,Bell peppers,Olives,Spinach,Tomatoespepper,salt
+                </li>
+
+                <h2 class="text-primary ">Mediterranean Steak</h2>
+                <li class="list-unstyled">
+                  <i class="fas fa-square"></i>
+                  <strong
+                    >Ingredients</strong
+                  >
+                  Dough ,Tomato Sauce , Cheese , Toppings: Pepperoni,Sausage,Mushrooms,Onions,Bell peppers,Olives,Spinach,Tomatoespepper,salt
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+          
+        </section>
+        <section id="modal3" class="modal fade my-5">
+          <div class="modal-dialog modal-lg mt-7">
+            <div class="modal-content bg-info p-5">
+            
+            <div class="row ">
+              
+              <div class="col-md-12 ">  
+                <video
+                class="Icon-animation w-100 "
+                autoplay
+                muted
+                loop
+              >
+                <source src="img/salad/video (2160p) (1).mp4" />
+              </video>
+              </div>
+              
+            </div>
+           <div class="row mt-5">
+            <p class="lead">"Salads are a delightful and nutritious addition to any meal, offering a wide array of health benefits. Packed with fresh, vibrant vegetables and leafy greens, salads provide an excellent source of vitamins, minerals, and fiber that contribute to overall well-being. Incorporating salads into your diet can aid in weight management, as their low-calorie nature helps control calorie intake while still delivering satisfying flavors. Moreover, salads offer a rainbow of colors, indicating the presence of various antioxidants that promote healthy cells and reduce the risk of chronic diseases.
+            </p>
+           </div>
+            <div class="row mt-5">
+              <div class="d-flex justify-content-between ">
+             <div class="col-md-5 m-2">
+              <div id="sliderss" class="carousel slide" >
+                <!--indicators-->
+               <div class="carousel-indicators">
+                 <button class="active" data-bs-target="#slider"  data-bs-slide-to="0" ></button>
+                 <button data-bs-target="#sliderss" data-bs-slide-to="1"  ></button>
+                 <button   data-bs-target="#sliderss" data-bs-slide-to="2"  ></button>
+               </div>
+               <!--inners-->
+               <div class="carousel-inner rounded-5">
+                 <div class="carousel-item active ">
+                   <div class="image-container">
+                   <img class="pizza-image" src="/img/salad/sonny-mauricio-yhc4pSbl01A-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                 </div>
+               </div>
+                 <div class="carousel-item ">
+                   <div class="image-container">
+                   <img  class="pizza-image" src="/img/salad/monika-grabkowska-pCxJvSeSB5A-unsplash (1).jpg" alt="" class="d-inlineblock  rounded-5">
+                 </div>
+                 </div>
+                 <div class="carousel-item ">
+                   <div class="image-container">
+                   <img  class="pizza-image pizza-image-3" src="/img/salad/nadine-primeau--ftWfohtjNw-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                 </div>
+               </div>
+               </div>
+               <!--buttons-->
+               <button class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#sliderss">
+                 <span class="carousel-control-prev-icon"></span>
+                 <span class="visually-hidden">Previous</span>
+               </button>
+
+               <button class="carousel-control-next" type="button" data-bs-slide="next" data-bs-target="#sliderss">
+                 <span class="carousel-control-next-icon"></span>
+                 <span class="visually-hidden">Next</span>
+               </button>
+
+             </div>
+             </div>
+            
+
+            <div class="col-md-7 m-3 mt-5">
+              <h1 class="mb-3 text-danger fw-bold">
+                3 OTHERS POPULAR SALAD OPTIONS
+              </h1>
+             
+              <ul class="list-group">
+
+                <h2 class="text-primary ">Salad Greek</h2>
+                <li class=" list-unstyled mb-3">
+                  <i class="fas fa-square"></i>
+                  <strong>Ingredients</strong> Dough ,Tomato Sauce , Cheese , Toppings: Pepperoni,Sausage,Mushrooms,Onions,Bell peppers,Olives,Ham,Pineapple,Bacon,Spinach,Tomatoespepper,salt
+                </li>
+
+                <h2 class="text-primary ">Caesar Salad </h2>
+                <li class=" list-unstyled mb-3">
+                  <i class="fas fa-square"></i>
+                  <strong>Ingredients</strong>  Dough ,Tomato Sauce , Cheese , Toppings: Onions,Bell peppers,Olives,Spinach,Tomatoespepper,salt
+                </li>
+
+                <h2 class="text-primary ">Garden Salad</h2>
+                <li class="list-unstyled">
+                  <i class="fas fa-square"></i>
+                  <strong
+                    >Ingredients</strong
+                  >
+                  Dough ,Tomato Sauce , Cheese , Toppings: Pepperoni,Sausage,Mushrooms,Onions,Bell peppers,Olives,Spinach,Tomatoespepper,salt
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+          
+        </section>
+
+        <section class="Gallery">
+          <figure class="gallery__item--1">
+            <img
+              src="./img/gallery-imag-1.jpg"
+              alt="gallery image 1"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--2">
+            <img
+              src="./img/gallery-image-2.jpg"
+              alt="gallery image 2"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--3">
+            <img
+              src="./img/gallery-image-3.jpg"
+              alt="gallery image 3"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--4">
+            <img
+              src="./img/gallery-image-4.jpg"
+              alt="gallery image 4"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--5">
+            <img
+              src="./img/gallery-image-5.jpg"
+              alt="gallery image 5"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--6">
+            <img
+              src="./img/gallery-image-6.jpg"
+              alt="gallery image 6"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--7">
+            <img
+              src="./img/gallery-image-7.jpg"
+              alt="gallery image 7"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--8">
+            <img
+              src="./img/gallery-image-8.jpg"
+              alt="gallery image 8"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--9">
+            <img
+              src="./img/gallery-image-9.jpg"
+              alt="gallery image 9"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--10">
+            <img
+              src="./img/gallery-image-10.jpg"
+              alt="gallery image 10"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--11">
+            <img
+              src="./img/gallery-image-11.jpg"
+              alt="gallery image 11"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--12">
+            <img
+              src="./img/gallery-image-12.jpg"
+              alt="gallery image 12"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--13">
+            <img
+              src="./img/gallery-image-13.jpg"
+              alt="gallery image 13"
+              class="gallery__img"
+            />
+          </figure>
+          <figure class="gallery__item--14">
+            <img
+              src="./img/gallery-image-14.jpg"
+              alt="gallery image 14"
+              class="gallery__img"
+            />
+          </figure>
+        </section>
+
+      </main>
+
+      <footer class="bg-info w-100 p-3 footer">
+        <div class="row">
+          <div class="d-flex justify-content-around">
+            <div class="col-md-6">
+              <div class="footer-subscribe">
+                <h1 class="mb-4">Order Your Food Now!</h1>
+                <p class="lead mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                  adipisci ipsam nemo asperiores tempora dicta fuga natus
+                  recusandae ea ullam!
+                </p>
+                <div class="form-container text-center mt-4">
+                  <form>
+                    <div class="input-group my-4 w-75">
+                      <input
+                        type="email"
+                        class="form-control form-control-lg rounded-start-5"
+                        placeholder="Email Address"
+                      />
+                      <button
+                        class="btn btn-primary btn-lg rounded-end-5 text-white"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-social text-center">
+                <a href="#"
+                  ><i class="fab fa-facebook fa-3x text-primary m-5"></i
+                ></a>
+                <a href="#"
+                  ><i class="fab fa-twitter fa-3x text-primary m-5"></i
+                ></a>
+                <a href="#"
+                  ><i class="fab fa-linkedin fa-3x text-primary m-5"></i
+                ></a>
+                <a href="#"
+                  ><i class="fab fa-instagram fa-3x text-primary m-5"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/script.js"></script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.Icon {
+  background-image: linear-gradient(to right, $primary, $danger, $primary);
+}
+
+.Icon-title {
+  color: $info;
+  // font-weight: bold;
+  text-shadow: 0 10rem 10rem rgba($dark, 0.8);
+}

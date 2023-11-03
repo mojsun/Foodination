@@ -1,0 +1,89 @@
+.cardd {
+  //functionality
+  height: 60vh;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+
+  &__side {
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba($dark, 0.2);
+    height: 60vh;
+    &--back {
+      transform: rotateY(180deg);
+
+      background-image: linear-gradient(to right bottom, $danger, $warning);
+    }
+  }
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+  &-img-top {
+    height: 28rem;
+    width: 28rem; /* Adjust this value to your desired height */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+  }
+  // BACK SIDE STYLING
+  &__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+
+  &__price-box {
+    text-align: center;
+    color: $primary;
+    margin-bottom: 8rem;
+  }
+
+  &__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+
+  &__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+  }
+  /* Small devices (landscape phones) */
+  @media (max-width: 576px) {
+    .card-img-top {
+      height: 150px;
+    }
+  }
+
+  /* Medium devices (tablets) */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .card-img-top {
+      height: 200px;
+    }
+  }
+
+  /* Large devices (desktops) */
+  @media (min-width: 992px) {
+    .card-img-top {
+      height: 250px;
+    }
+  }
+}
+.Card-Header {
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari/WebKit browsers */
+  color: transparent; /* Hide the original text color */
+  background-image: linear-gradient(to right, $primary, $danger);
+}

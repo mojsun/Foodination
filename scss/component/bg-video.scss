@@ -1,0 +1,30 @@
+.bg-video {
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.bg-video-two {
+  opacity: 0.3;
+}
+.bg-video-text {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+}
+// .shadowed-text {
+//   position: relative;
+// }
+// .shadowed-text::after {
+//   content: attr(data-text);
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: -1;
+//   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adjust the shadow values */
+//   opacity: 0.5; /* Adjust the opacity as needed */
+// }

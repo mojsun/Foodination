@@ -1,0 +1,20 @@
+.bg-video {
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+}
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bg-video-two {
+  opacity: 0.3;
+}
+
+.bg-video-text {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+}
