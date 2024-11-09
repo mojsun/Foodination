@@ -13,7 +13,6 @@
   </head>
 
   <body>
-    
 
       <header >
         <nav
@@ -38,13 +37,13 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a href="index.html" class="nav-link fw-semibold text-primary">Home</a>
+                  <a href="index.html" class="nav-link fw-semibold text-primary ">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#products" class="nav-link fw-semibold text-primary">Products</a>
+                  <a href="#products" class="nav-link fw-semibold text-primary  mb-3">Products</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a href="locations.html" class="nav-link fw-semibold text-primary">Locations</a>
@@ -73,49 +72,56 @@
       </header>
 
       <main>
-
-        <section class="Icon m-6  p-5 rounded-5" id="stats">
-          <div class="d-flex justify-content-between">
-            <div class="text-center">
-              <h2 class="Icon-title mb-4 fw-bold">Happy client</h2>
-              <video
-                class="Icon-animation w-50 rounded-circle"
-                autoplay
-                muted
-                loop
-              >
-                <source src="img/animation/animation_happy-client.mp4" />
-              </video>
-              <h2 class="Icon_Numbers mt-4 text-info" data-target="328"></h2>
-            </div>
-            <div class="text-center">
-              <h2 class="Icon-title mb-4">Order Per Week</h2>
-              <video
-                class="Icon-animation w-50 rounded-circle"
-                autoplay
-                muted
-                loop
-              >
-                <source src="img/animation/animation_lkzrr6b5.mp4" />
-              </video>
-              <h2 class="Icon_Numbers mt-4 text-info" data-target="672"></h2>
-            </div>
-            <div class="text-center">
-              <h2 class="Icon-title mb-4">Number Of Reviews</h2>
-              <video
-                class="Icon-animation w-50 rounded-circle"
-                autoplay
-                muted
-                loop
-              >
-                <source src="img/animation/animation_good-review.mp4" />
-              </video>
-              <h2 class="Icon_Numbers mt-4 text-info" data-target="451"></h2>
+       
+        <!-- section cliet satisfaction -->
+        <section class="Icon m-6 p-5 rounded-5" id="stats">
+          <div class="container m-auto">
+            <div class="row justify-content-between text-center ">
+              <div class="col-9 col-md-3  m-auto">
+                <h2 class="Icon-title mb-4 fw-bold">Happy Clients</h2>
+                <video
+                  class="Icon-animation w-75 w-md-50 rounded-circle"
+                  autoplay
+                  muted
+                  loop
+                >
+                  <source src="img/animation/animation_happy-client.mp4" />
+                </video>
+                <h2 class="Icon_Numbers mt-4 text-info" data-target="328"></h2>
+              </div>
+        
+              <div class="col-9 col-md-3 m-auto">
+                <h2 class="Icon-title mb-4">Orders Per Week</h2>
+                <video
+                  class="Icon-animation w-75 w-md-50 rounded-circle"
+                  autoplay
+                  muted
+                  loop
+                >
+                  <source src="img/animation/animation_lkzrr6b5.mp4" />
+                </video>
+                <h2 class="Icon_Numbers mt-4 text-info" data-target="672"></h2>
+              </div>
+        
+              <div class="col-9 col-md-3 m-auto">
+                <h2 class="Icon-title mb-4">Number of Reviews</h2>
+                <video
+                  class="Icon-animation w-75 w-md-50 rounded-circle"
+                  autoplay
+                  muted
+                  loop
+                >
+                  <source src="img/animation/animation_good-review.mp4" />
+                </video>
+                <h2 class="Icon_Numbers mt-4 text-info" data-target="451"></h2>
+              </div>
             </div>
           </div>
         </section>
+        
 
-        <section class="mt-5">
+        <!--section why foodies-->
+        <section class="mt-7 ps-6 pe-6 mx-md-auto">
           <div class="container">
             <div class="row">
               <div class="col-lg-6">
@@ -178,7 +184,10 @@
           </div>
         </section>
 
-        <section class="Cards mb-7" id="products">
+        
+        
+        <!--section most popular food-->
+        <section class="Cards mb-7 ms-7 me-7" id="products">
           <div class="container">
             <div class="row justify-content-center g-6 mt-2">
               <h1 class="Card-Header text-center display-2 fw-bold"> MOST  POPULAR  FOODS</h1>
@@ -270,14 +279,14 @@
               </div>
             </div>
         </section>
-
+        
         <section id="modal1" class="modal fade my-5">
           <div class="modal-dialog modal-lg mt-7">
             <div class="modal-content bg-info p-5">
             
             <div class="row ">
               
-              <div class="col-md-12 ">  
+              <div class=" col-10 col-md-12 ">  
                 <video
                 class="Icon-animation w-100 "
                 autoplay
@@ -288,12 +297,12 @@
               </video>
               </div>
             </div>
-           <div class="row mt-5">
+           <div class="row col-10 mt-5 text-center">
             <p class="lead">Pizza, a culinary marvel that offers a host of advantages. With a harmonious blend of flavors, it tantalizes taste buds and brings joy to gatherings. An ideal canvas for nutrient-rich toppings, pizza can incorporate an array of vegetables, proteins, and cheeses, contributing to a well-rounded diet. Its convenience and versatility make it a go-to choice for quick meals or festive occasions. Furthermore, the shared experience of savoring pizza fosters connections and camaraderie. Whether enjoyed as a comforting treat or a creative masterpiece, pizza brings people together while providing a satisfying and delicious dining experience
             </p>
            </div>
             <div class="row mt-5">
-              <div class="d-flex justify-content-between ">
+              <div class="d-flex flex-column flex-md-row justify-content-between ">
              <div class="col-md-5 m-2">
               <div id="slider" class="carousel slide" >
                  <!--indicators-->
@@ -303,20 +312,20 @@
                   <button   data-bs-target="#slider" data-bs-slide-to="2"  ></button>
                 </div>
                 <!--inners-->
-                <div class="carousel-inner rounded-5">
-                  <div class="carousel-item active ">
+                <div class="carousel-inner rounded-5 ">
+                  <div class="carousel-item active col-7 ">
                     <div class="image-container">
-                    <img class="pizza-image" src="/img/pizza/foad-roshan-Y6OgisiGBjM-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                    <img class="pizza-image" src="/img/pizza/foad-roshan-Y6OgisiGBjM-unsplash.jpg" alt="" class="d-inlineblock  rounded-5 w-100 h-100">
                   </div>
                 </div>
-                  <div class="carousel-item ">
+                  <div class="carousel-item col-7">
                     <div class="image-container">
-                    <img  class="pizza-image" src="/img/pizza/likemeat-CbNAuxSZTFo-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                    <img  class="pizza-image" src="/img/pizza/likemeat-CbNAuxSZTFo-unsplash.jpg" alt="" class="d-inlineblock  rounded-5 w-100 h-100">
                   </div>
                   </div>
-                  <div class="carousel-item ">
+                  <div class="carousel-item col-7">
                     <div class="image-container">
-                    <img  class="pizza-image pizza-image-3" src="/img/pizza/pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg" alt="" class="d-inlineblock  rounded-5">
+                    <img  class="pizza-image pizza-image-3" src="/img/pizza/pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg" alt="" class="d-inlineblock  rounded-5 w-100 h-100">
                   </div>
                 </div>
                 </div>
@@ -335,17 +344,17 @@
              </div>
             
 
-            <div class="col-md-7 m-3 mt-5">
+            <div class="col-md-7 m-3 me-5 mt-5">
               <h1 class="mb-3 text-danger fw-bold">
                 3 OTHERS POPULAR PIZZA OPTIONS
               </h1>
              
-              <ul class="list-group">
+              <ul class="list-group me-5">
 
                 <h2 class="text-primary ">Pop Pizza</h2>
                 <li class=" list-unstyled mb-3">
                   <i class="fas fa-square"></i>
-                  <strong>Ingredients</strong> Dough ,Tomato Sauce , Cheese , Toppings: Pepperoni,Sausage,Mushrooms,Onions,Bell peppers,Olives,Ham,Pineapple,Bacon,Spinach,Tomatoespepper,salt
+                  <strong>Ingredients</strong> Dough ,Tomato Sauce , Cheese , Toppings: Pepperoni,Sausage,Mushrooms,Onions,Bell peppers,Olives,Ham,Pineapple,Bacon,Spinach,Tomatoespepper
                 </li>
 
                 <h2 class="text-primary ">Vegies Pizza</h2>
@@ -379,7 +388,7 @@
             
             <div class="row ">
               
-              <div class="col-md-12 ">  
+              <div class=" col-10 col-md-12 ">  
                 <video
                 class="Icon-animation w-100 "
                 autoplay
@@ -391,12 +400,12 @@
               </div>
               
             </div>
-           <div class="row mt-5">
+           <div class="row mt-5 col-10 text-center">
             <p class="lead">Steak, a culinary masterpiece that offers a multitude of advantages. Bursting with essential nutrients like iron and zinc, it fuels energy and supports immune health. Packed with high-quality protein, steak aids in muscle development and repair. Its rich taste elevates dining experiences, encouraging mindful enjoyment. Additionally, steak's protein content promotes satiety, aiding weight management goals. As a versatile ingredient, it inspires creativity in the kitchen. Embrace the goodness of steak for a well-rounded and flavorful approach to nutrition.
             </p>
            </div>
             <div class="row mt-5">
-              <div class="d-flex justify-content-between ">
+              <div class="d-flex flex-column flex-md-row justify-content-between ">
              <div class="col-md-5 m-2">
               <div id="sliders" class="carousel slide" >
                 <!--indicators-->
@@ -439,11 +448,11 @@
             
 
             <div class="col-md-7 m-3 mt-5">
-              <h1 class="mb-3 text-danger fw-bold">
+              <h1 class="mb-3 text-danger me-5 fw-bold">
                 3 OTHERS POPULAR STEAK OPTIONS
               </h1>
              
-              <ul class="list-group">
+              <ul class="list-group me-5">
 
                 <h2 class="text-primary ">Raw Steak</h2>
                 <li class=" list-unstyled mb-3">
@@ -475,13 +484,14 @@
         </div>
           
         </section>
+
         <section id="modal3" class="modal fade my-5">
           <div class="modal-dialog modal-lg mt-7">
             <div class="modal-content bg-info p-5">
             
             <div class="row ">
               
-              <div class="col-md-12 ">  
+              <div class=" col-10 col-md-12 ">  
                 <video
                 class="Icon-animation w-100 "
                 autoplay
@@ -493,12 +503,12 @@
               </div>
               
             </div>
-           <div class="row mt-5">
+           <div class="row mt-5 col-10 text-center">
             <p class="lead">"Salads are a delightful and nutritious addition to any meal, offering a wide array of health benefits. Packed with fresh, vibrant vegetables and leafy greens, salads provide an excellent source of vitamins, minerals, and fiber that contribute to overall well-being. Incorporating salads into your diet can aid in weight management, as their low-calorie nature helps control calorie intake while still delivering satisfying flavors. Moreover, salads offer a rainbow of colors, indicating the presence of various antioxidants that promote healthy cells and reduce the risk of chronic diseases.
             </p>
            </div>
             <div class="row mt-5">
-              <div class="d-flex justify-content-between ">
+              <div class="d-flex flex-column flex-md-row justify-content-between ">
              <div class="col-md-5 m-2">
               <div id="sliderss" class="carousel slide" >
                 <!--indicators-->
@@ -541,11 +551,11 @@
             
 
             <div class="col-md-7 m-3 mt-5">
-              <h1 class="mb-3 text-danger fw-bold">
+              <h1 class="mb-3 me-5 text-danger fw-bold">
                 3 OTHERS POPULAR SALAD OPTIONS
               </h1>
              
-              <ul class="list-group">
+              <ul class="list-group me-5">
 
                 <h2 class="text-primary ">Salad Greek</h2>
                 <li class=" list-unstyled mb-3">
@@ -578,6 +588,7 @@
           
         </section>
 
+        <!--section Gallery-->
         <section class="Gallery">
           <figure class="gallery__item--1">
             <img
@@ -681,7 +692,7 @@
 
       </main>
 
-      <footer class="bg-info w-100 p-3 footer">
+      <footer class="bg-info  p-3 footer">
         <div class="row">
           <div class="d-flex justify-content-around">
             <div class="col-md-6">
@@ -713,16 +724,16 @@
             <div class="col-md-6">
               <div class="footer-social text-center">
                 <a href="#"
-                  ><i class="fab fa-facebook fa-3x text-primary m-5"></i
+                  ><i class="fab fa-facebook fa-3x text-primary mb-3 mt-4 me-3"></i
                 ></a>
                 <a href="#"
-                  ><i class="fab fa-twitter fa-3x text-primary m-5"></i
+                  ><i class="fab fa-twitter fa-3x text-primary mb-3 mt-2 me-3"></i
                 ></a>
                 <a href="#"
-                  ><i class="fab fa-linkedin fa-3x text-primary m-5"></i
+                  ><i class="fab fa-linkedin fa-3x text-primary mb-3 mt-2 me-3"></i
                 ></a>
                 <a href="#"
-                  ><i class="fab fa-instagram fa-3x text-primary m-5"></i
+                  ><i class="fab fa-instagram fa-3x text-primary mb-3 mt-2 me-3"></i
                 ></a>
               </div>
             </div>

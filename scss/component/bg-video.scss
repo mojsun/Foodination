@@ -1,5 +1,5 @@
 .bg-video {
-  height: 80vh;
+  min-height: 80vh;
   width: 100vw;
   position: relative;
   &__content {
@@ -16,15 +16,30 @@
   top: 65%;
   left: 25%;
 }
-// .shadowed-text {
-//   position: relative;
-// }
-// .shadowed-text::after {
-//   content: attr(data-text);
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   z-index: -1;
-//   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adjust the shadow values */
-//   opacity: 0.5; /* Adjust the opacity as needed */
-// }
+/////////////////////////////
+.bg-video1 {
+  height: 70vh;
+  width: 100vw;
+  position: absolute;
+  &__content {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+///////////////////////
+.bg-video-two {
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Ensure form and contact sections are above the video */
+.content {
+  z-index: 1;
+}
+/* Adjust the height for medium screens and larger */
+@media (min-width: 768px) {
+  .bg-video1 {
+    height: 30%; /* Ensure the video spans at least the height of the form and contact section */
+  }
+}

@@ -10,7 +10,7 @@
     <link rel="icon" href="img/gallery-image-4.jpg" />
     <title>Foodienation</title>
   </head>
-  <body>
+  <body class=" d-flex flex-column min-vh-100">
     
         <header class="header">
           <nav
@@ -36,12 +36,12 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto text-center">
                   <li class="nav-item">
                     <a href="index.html" class="nav-link fw-semibold text-primary">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#products" class="nav-link fw-semibold text-primary">Products</a>
+                    <a href="#products" class="nav-link fw-semibold text-primary mb-3">Products</a>
                   </li>
                   <!-- <li class="nav-item">
                     <a href="locations.html" class="nav-link fw-semibold text-primary">Locations</a>
@@ -58,92 +58,97 @@
             </div>
           </nav>
         </header>
-        <section class="contact bg-light pb-4">
-            <div class="bg-video-two position-relative mt-6">
-                <video class="bg-video__content" autoplay muted loop>
-                    <source src="img/video/video (1080p).mp4" type="video/mp4">
-                    <source src="img/video/video (1080p).mp4" type="video/webm">
-                    Your browser is not supported!
-                </video>
-            </div>
-            <div class="container mt-8 ">
-              <div class="row  d-flex justify-content-between">
-                <div class="col-5 position-absolute top-0 end-50  z-index-above-video">
-                  <form action="https://formspree.io/f/mrgvnzvq" method="POST">
-                    <h1 class="text-primary pb-2 mt-8">Send Your Message</h1>
-                    <div class="mb-3 ">
-                      <input
-                        type="text"
-                        class="form-control form-control-lg"
-                        name="name"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <input
-                        type="email"
-                        class="form-control form-control-lg"
-                        name="email"
-                        placeholder="Email"
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <textarea
-                        class="form-control form-control-lg"
-                        name="message"
-                        rows="6"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-                    <div class="d-grid">
-                      <button type="submit" class="btn btn-primary text-white mt-3">
-                        Submit
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div class="col-5  position-absolute top-0 start-50  z-index-above-video mapLocation ">
-              <div class="group mb-3 mt-8">
-              <h2 class="text-primary ps-3">Get Intouch</h2>
-              
-                <ul class="contact-icon d-flex flex-column list-unstyled">
-                  <li>
-                    <h5>
-                      <span>
-                    <i class=" fa-solid fa-location-dot  fa-sx text-danger m-2 d-inline fa-flip"></i></span>
-                    Australia ,urulu
-                  </h5>
-                  </li>
-
-                  <li>
-                    <h5>
-                      <span>
-                    <i class=" fa-solid fa-phone  fa-sx text-danger m-2 d-inline fa-flip"></i></span>
-                    +1-6475689848
-                  </h5>
-                  </li>
-
-                  <li>
-                    <h5>
-                      <span>
-                    <i class=" fa-solid fa-envelope-open-text  fa-beat text-danger m-2 d-inline fa-flip"></i></span>
-                    foodienation@gmail.com
-                  </h5>
-                  </li>
-                
-              
-              
-            </ul>
-           
-              <div  id="map" class="map "></div>
-            </div>
-              </div>
-            </div>
-            
-          </section>
+        <main class="flex-grow-1">
+   <!--main area-->
+   <section class="contact bg-light pb-4 position-relative">
+    <div class="position-absolute bg-video-two mt-6 z-0">
+        <video class="bg-video1__content" autoplay muted loop>
+            <source src="img/video/video (1080p).mp4" type="video/mp4">
+            <source src="img/video/video (1080p).mp4" type="video/webm">
+            Your browser is not supported!
+        </video>
+    </div>
+    <div class="position-relative content container d-flex flex-column flex-md-row z-1">
       
-        <footer class="bg-info w-100 p-3 px-5 fixed-bottom ">
+        <div class=" col-8 col-md-5 z-1 m-auto mt-8 ">
+          <form action="https://formspree.io/f/mrgvnzvq" method="POST">
+            <h1 class="text-primary pb-2 mt-3">Send Your Message</h1>
+            <div class="mb-3 ">
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                name="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control form-control-lg"
+                name="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control form-control-lg"
+                name="message"
+                rows="6"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary text-white mt-3">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      
+      <div class="col-8 col-md-5 z-1 mapLocation mb-4 m-auto">
+      <div class="group mb-3 mt-5 text-center ">
+        <div class="d-flex flex-column flex-md-row gap-5">
+          <h2 class="text-primary  ">Get Intouch</h2>
+      
+          <ul class="contact-icon  list-unstyled">
+            <li>
+              <h5>
+                <span>
+              <i class=" fa-solid fa-location-dot  fa-sx text-danger m-2 d-inline fa-flip"></i></span>
+              Australia ,urulu
+            </h5>
+            </li>
+
+            <li>
+              <h5>
+                <span>
+              <i class=" fa-solid fa-phone  fa-sx text-danger m-2 d-inline fa-flip"></i></span>
+              +1-6475689848
+            </h5>
+            </li>
+
+            <!-- <li>
+              <h5>
+                <span>
+              <i class=" fa-solid fa-envelope-open-text  fa-beat text-danger m-2 d-inline fa-flip"></i></span>
+              foodienation@gmail.com
+            </h5>
+            </li> -->
+          
+        
+        
+          </ul></div>
+        
+   
+      <div  id="map" class="map "></div>
+      </div>
+      </div>
+      </div>
+    
+  </section>
+
+        </main>
+        <!-- <footer class="bg-info w-100 p-3 px-5 fixed-bottom ">
             <div class="row">
               <div class="d-flex justify-content-around">
                 <div class="col-md-6">
@@ -190,7 +195,57 @@
                 </div>
               </div>
             </div>
+          </footer> -->
+         
+          <footer class="position-relative bg-info  fixed-bottom p-3 footer z-1">
+            <div class="row">
+              <div class="d-flex justify-content-around">
+                <div class="col-md-6">
+                  <div class="footer-subscribe">
+                    <h1 class="mb-4">Order Your Food Now!</h1>
+                    <p class="lead mb-5">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                      adipisci ipsam nemo asperiores tempora dicta fuga natus
+                      recusandae ea ullam!
+                    </p>
+                    <div class="form-container text-center mt-4">
+                      <form>
+                        <div class="input-group my-4 w-75">
+                          <input
+                            type="email"
+                            class="form-control form-control-lg rounded-start-5"
+                            placeholder="Email Address"
+                          />
+                          <button
+                            class="btn btn-primary btn-lg rounded-end-5 text-white"
+                          >
+                            Submit
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="footer-social text-center">
+                    <a href="#"
+                      ><i class="fab fa-facebook fa-3x text-primary mb-3 mt-4 me-3"></i
+                    ></a>
+                    <a href="#"
+                      ><i class="fab fa-twitter fa-3x text-primary mb-3 mt-2 me-3"></i
+                    ></a>
+                    <a href="#"
+                      ><i class="fab fa-linkedin fa-3x text-primary mb-3 mt-2 me-3"></i
+                    ></a>
+                    <a href="#"
+                      ><i class="fab fa-instagram fa-3x text-primary mb-3 mt-2 me-3"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </footer>
+         
           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Pz9RwTUZCXabCqBHpbeMBLM_6OCGjbo&callback=initMap" async defer></script> 
           <script src="js/bootstrap.bundle.min.js"></script>
           
